@@ -184,7 +184,8 @@ header .header-content .header-content-inner .list-badges img {
   height: 50px;
   margin-bottom: 25px;
 }
-header .header-content .header-content-inner iframe {
+header .header-content .header-content-inner iframe,
+header .header-content .header-content-inner img {
   width: 300px;
   height: 170px;
   margin-top: 20px;
@@ -215,7 +216,8 @@ header .device-container .screen img {
   header .header-content .header-content-inner h1 {
     font-size: 35px;
   }
-  header .header-content .header-content-inner iframe {
+  header .header-content .header-content-inner iframe,
+  header .header-content .header-content-inner img {
     width: 500px;
     height: 280px;
   }
