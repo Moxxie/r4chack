@@ -137,9 +137,11 @@ header {
     width: 100%;
     min-height: auto;
     overflow-y: hidden;
-    background: url("../img/bg-pattern.png"), @theme-secondary; /* fallback for old browsers */
-    background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, @theme-secondary , @theme-tertiary); /* Chrome 10-25, Safari 5.1-6 */
-    background: url("../img/bg-pattern.png"), linear-gradient(to left, @theme-secondary , @theme-tertiary); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url("../img/pregnant-beach-sunset-mother-51386.jpeg"), @theme-secondary; /* fallback for old browsers */
+    background: url("../img/pregnant-beach-sunset-mother-51386.jpeg"), -webkit-linear-gradient(to left, @theme-secondary , @theme-tertiary); /* Chrome 10-25, Safari 5.1-6 */
+    background: url("../img/pregnant-beach-sunset-mother-51386.jpeg"), linear-gradient(to left, @theme-secondary , @theme-tertiary); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: right;
+    background-size: cover;
     color: white;
     .header-content {
         text-align: center;
@@ -272,6 +274,8 @@ section.features {
               background: linear-gradient(to left, @theme-secondary , @theme-tertiary);
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
+            height: 100px;
+            display: inline-block;
         }
     }
     @media(min-width: 992px) {
@@ -286,11 +290,13 @@ section.cta {
     position: relative;
     .background-cover;
     background-position: center;
-    background-image: url('../img/bg-cta.jpg');
+    background-image: url('../img/bg2.jpg');
     padding: 250px 0;
     .cta-content {
         position: relative;
         z-index: 1;
+        font-size: 35px;
+        color: white;
         h2 {
             margin-top: 0;
             margin-bottom: 25px;
@@ -397,6 +403,10 @@ footer {
     background: linear-gradient(@theme-primary , darken(@theme-primary, 5%));
 }
 
+.bg-light {
+    background: @gray-lighter;
+}
+
 .text-primary {
     color: @theme-primary;
 }
@@ -457,4 +467,11 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @gray-darker;
+}
+
+#solution{
+    font-size: 25px;
+    .row{
+        margin-bottom: 20px;
+    }
 }
