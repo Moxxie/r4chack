@@ -5,7 +5,9 @@
   "homepage": "http://startbootstrap.com/template-overviews/new-age",
   "author": "Start Bootstrap",
   "scripts": {
-    "start": "http-server ./"
+    "start": "http-server ./",
+    "live": "gulp dev",
+    "build": "gulp"
   },
   "license": {
     "type": "MIT",
